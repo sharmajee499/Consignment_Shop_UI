@@ -74,6 +74,7 @@
             this.btn_add_to_cart.TabIndex = 3;
             this.btn_add_to_cart.Text = "Add to Cart";
             this.btn_add_to_cart.UseVisualStyleBackColor = true;
+            this.btn_add_to_cart.Click += new System.EventHandler(this.Btn_add_to_cart_Click);
             // 
             // label1
             // 

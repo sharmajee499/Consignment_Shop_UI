@@ -11,5 +11,11 @@ namespace Consognment_shop_library
         public string LastName { get; set; }
         public double Comission { get; set; }
 
+        public VendorClass()
+        {
+            Comission = 0.5;
+
+        }
+
     }
 }

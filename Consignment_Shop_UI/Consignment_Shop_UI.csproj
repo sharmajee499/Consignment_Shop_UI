@@ -79,5 +79,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Consognment_shop_library\Consognment_shop_library.csproj">
+      <Project>{d11bd071-6fd0-426a-8109-7cfe7810a872}</Project>
+      <Name>Consognment_shop_library</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

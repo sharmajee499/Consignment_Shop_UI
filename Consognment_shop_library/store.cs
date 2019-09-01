@@ -10,6 +10,18 @@ namespace Consognment_shop_library
         public List<VendorClass> Vendor { get; set; }
         public List<Item> Items { get; set; }
 
+        public store()
+        {
+            Vendor = new List<VendorClass>();
+            Items = new List<Item>();
+
+        }
+
+        class mything
+        {
+
+        }
+
 
     }
 }
